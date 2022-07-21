@@ -155,11 +155,11 @@ async function execute(interaction) {
 
         var { d: d, md: md, bd: bd, ed: ed, p: p, s: s } = pHelp.getDamagesObj(plasmaDarts, x);
 
-        desc = `**Activated Ability** - Hook the strongest target on screen, works on BADs and generates 2x normal cash. 20s cooldown, maxes at 2 uses per round. [degree independent]
+        desc = `**Activated Ability** - Hook the strongest target on screen, works on BADs and generates 2x normal cash. 30s cooldown, maxes at 2 uses per round. [cooldown changes on degree]
                 **Rapid Fire Hooks** - Has 10 hooks “stored”, MOABs, BFBs, and DDTs use 1 hook while ZOMGs use 2 hooks, 1s between each pull, generates 2x normal cash, 10s to replenish [cooldown _might_ be shorter with higher degree]
 
                 **Main ship:**
-                **plasma dart**? - ${d}d, ${md}md, ${bd}bd, ${ed}ed, ${p}p, ${s}s, 10j (per set of 3 cannons, so effectively 30j per side)
+                **plasma dart** - ${d}d, ${md}md, ${bd}bd, ${ed}ed, ${p}p, ${s}s, 10j (per set of 3 cannons, so effectively 30j per side)
                 `;
 
         var { d: d, md: md, bd: bd, ed: ed, p: p, s: s } = pHelp.getDamagesObj(cannonball, x);
